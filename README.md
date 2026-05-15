@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/27824596/README.md)
 # MenuFácil
 
 Sistema de cardápio digital para o Açaí da Lelê.
