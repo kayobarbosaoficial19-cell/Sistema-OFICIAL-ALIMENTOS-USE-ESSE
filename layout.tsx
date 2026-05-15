@@ -1,3 +1,18 @@
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'MenuFácil — Açaí da Lelê',
+  description: 'Cardápio digital e delivery',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="pt-BR">
+      <body style={{ margin: 0, padding: 0 }}>{children}</body>
+    </html>
+  )
 }
