@@ -1,10 +1,5 @@
-'use client'
-export default function StorePage() {
-  return (
-    <iframe
-      src="/store.html"
-      style={{ width: '100vw', height: '100vh', border: 'none', display: 'block' }}
-      title="MenuFácil — Loja"
-    />
-  )
+// Esta rota é tratada pelo rewrite em next.config.js
+// → serve /public/store.html diretamente
+export default function Page() {
+  return null
 }
